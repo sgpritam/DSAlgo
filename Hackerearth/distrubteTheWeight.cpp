@@ -23,6 +23,7 @@ bool part(vector<int> a, int n, int k, long long max_sum){
 }
  
  
+
 int calculate (vector<int> a, int k,int n) {
     long long low = 1, high = 10000000000;
     
