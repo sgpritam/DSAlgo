@@ -8,25 +8,25 @@ Our open source community is focussed on understanding the concepts and while do
 
 ### 1. Fork it :fork_and_knife:
 
-You can get your own fork/copy of [cbcpp](https://github.com/sgpritam/cbcpp) by using the <a href="https://github.com/sgpritam/cbcpp/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/sgpritam/cbcpp/new/master?readme=1#fork-destination-box).
+You can get your own fork/copy of [DSAlgo](https://github.com/sgpritam/DSAlgo) by using the <a href="https://github.com/sgpritam/DSAlgo/new/master?readme=1#fork-destination-box"><kbd><b>Fork</b></kbd></a> button or clicking [this](https://github.com/sgpritam/DSAlgo/new/master?readme=1#fork-destination-box).
 
- [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/sgpritam/cbcpp)
+ [![Fork Button](https://help.github.com/assets/images/help/repository/fork_button.jpg)](https://github.com/sgpritam/DSAlgo)
 
 ### 2. Clone it :busts_in_silhouette:
 
 You need to clone (download) it to local machine using
 
 ```sh
-$ git clone https://github.com/Your_Username/cbcpp.git
+$ git clone https://github.com/Your_Username/DSAlgo.git
 ```
 
 > This makes a local copy of repository in your machine.
 
-Once you have cloned the `cbcpp` repository in Github, move to that folder first using change directory command on linux and Mac.
+Once you have cloned the `DSAlgo` repository in Github, move to that folder first using change directory command on linux and Mac.
 
 ```sh
-# This will change directory to a folder cbcpp
-$ cd cbcpp
+# This will change directory to a folder DSAlgo
+$ cd DSAlgo
 ```
 
 Move to this folder for all other commands.
@@ -37,14 +37,14 @@ Run the following commands to see that *your local copy* has a reference to *you
 
 ```sh
 $ git remote -v
-origin  https://github.com/Your_Username/cbcpp.git (fetch)
-origin  https://github.com/Your_Username/cbcpp.git (push)
+origin  https://github.com/Your_Username/DSAlgo.git (fetch)
+origin  https://github.com/Your_Username/DSAlgo.git (push)
 ```
 
-Now, lets add a reference to the original [cbcpp](https://github.com/sgpritam/cbcpp) repository using
+Now, lets add a reference to the original [DSAlgo](https://github.com/sgpritam/DSAlgo) repository using
 
 ```sh
-$ git remote add upstream https://github.com/sgpritam/cbcpp.git
+$ git remote add upstream https://github.com/sgpritam/DSAlgo.git
 ```
 
 > This adds a new remote named ***upstream***.
@@ -53,10 +53,10 @@ See the changes using
 
 ```sh
 $ git remote -v
-origin    https://github.com/Your_Username/cbcpp.git (fetch)
-origin    https://github.com/Your_Username/cbcpp.git (push)
-upstream  https://github.com/sgpritam/cbcpp.git (fetch)
-upstream  https://github.com/sgpritam/cbcpp.git (push)
+origin    https://github.com/Your_Username/DSAlgo.git (fetch)
+origin    https://github.com/Your_Username/DSAlgo.git (push)
+upstream  https://github.com/sgpritam/DSAlgo.git (fetch)
+upstream  https://github.com/sgpritam/DSAlgo.git (push)
 ```
 
 ### 4. Sync it :recycle:
@@ -74,13 +74,13 @@ $ git checkout master
 # Reset local `master` branch to match `upstream` repository's `master` branch
 $ git reset --hard upstream/master
 
-# Push changes to your forked `cbcpp` repo
+# Push changes to your forked `DSAlgo` repo
 $ git push origin master
 ```
 
 ### 5. Ready Steady Go... :turtle: :rabbit2:
 
-Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/sgpritam/cbcpp/pulls).
+Once you have completed these steps, you are ready to start contributing by checking our `Help Wanted` Issues and creating [pull requests](https://github.com/sgpritam/DSAlgo/pulls).
 
 ### 6. Create a new branch :bangbang:
 
