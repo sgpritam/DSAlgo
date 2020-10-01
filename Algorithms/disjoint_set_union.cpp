@@ -1,6 +1,8 @@
-#define _CRT_SECURE_NO_DEPRECATE
+// disjoint_set_union.cpp
+
 #include<bits/stdc++.h>
 using namespace std;
+#define _CRT_SECURE_NO_DEPRECATE
 #define SYNC std::ios_base::sync_with_stdio(0);cin.tie(NULL);cout.tie(NULL);
 const int MOD = 1e9+7;
 const int INF = 1000111000111000111LL;
